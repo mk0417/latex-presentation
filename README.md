@@ -21,7 +21,7 @@ The presentation produced by the template can be viewed at https://pascalmichail
 
 ## Software
 
-+ The template was developed with TeX Live 2023 on macOS. 
++ The template was developed with TeX Live 2025 on macOS. 
 + Other LaTeX distributions and operating systems may require minor adjustments. Please [report any issues](https://github.com/pmichaillat/latex-math/issues) to help improve compatibility.
 
 ## License
@@ -30,6 +30,7 @@ This repository is licensed under the [MIT License](LICENSE.md).
 
 ## Real-world implementations
 
++ [Recession Detection Using Classifiers on the Anticipation-Precision Frontier](https://pascalmichaillat.org/17p.pdf)
 + [Beveridgean Phillips Curve](https://pascalmichaillat.org/15p.pdf)
 + [Modeling Migration-Induced Unemployment](https://pascalmichaillat.org/14p.pdf)
 + [u* = √uv: The Full-Employment Rate of Unemployment in the United States](https://pascalmichaillat.org/13p.pdf)

@@ -1,8 +1,9 @@
-\documentclass[11pt,xcolor={dvipsnames},hyperref={pdftex,pdfpagemode=UseNone,hidelinks,pdfdisplaydoctitle=true},usepdftitle=false]{beamer}
+\documentclass[11pt,xcolor={dvipsnames},usepdftitle=false]{beamer}
 \usepackage{presentation}
-
+\hypersetup{pdfpagemode=UseNone,hidelinks,pdfdisplaydoctitle=true,%
+%
 % Enter presentation title to populate PDF metadata:
-\hypersetup{pdftitle={Minimalist LaTeX Template for Academic Presentations}}
+pdftitle={Minimalist LaTeX Template for Academic Presentations}}
 
 % Enter path to PDF file with figures:
 \newcommand{\pdf}{figures.pdf}
@@ -12,7 +13,7 @@
 % Enter title:
 \title{Research Presentation}
 
-\information
+\information%
 %
 % Enter URL to research paper (can be commented out):
 [https://github.com/pmichaillat/latex-presentation]

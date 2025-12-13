@@ -18,6 +18,7 @@
 
 % Select URL font
 \usepackage{url}
+\urlstyle{same}
 
 % ---- Select math fonts -----
 
@@ -25,7 +26,7 @@
 \usepackage{MnSymbol}
 
 % Select calligraphic and blackboard-bold fonts
-\usepackage[cal=euler,bb=fourier]{mathalpha}
+\usepackage[cal=euler, bb=fourier]{mathalpha}
 
 % Enable bold math characters
 \newcommand{\hmmax}{0} % Avoid "Too many math alphabets" error
@@ -33,7 +34,7 @@
 \usepackage{bm}
 
 % Select font for Roman letters, Greek letters, digits, and punctuation
-\usepackage[italic,eulergreek,nolessnomore,noparenthesis,noplusnominus,noequal,nohbar]{mathastext}
+\usepackage[italic, eulergreek, nolessnomore, noparenthesis, noplusnominus, noequal, nohbar]{mathastext}
 
 % Correct spacing around certain Roman letters
 \MTsetmathskips{y}{2mu}{0mu}
@@ -56,10 +57,10 @@
 % ---- Adjust slide layout ----
 
 % Set layout on title page
-\setbeamertemplate{title page}[default][left,leftskip=-8pt]
+\setbeamertemplate{title page}[default][left, leftskip=-8pt]
 
 % Set margins on regular pages
-\setbeamersize{text margin left=5mm,text margin right=5mm}
+\setbeamersize{text margin left=5mm, text margin right=5mm}
 
 % ---- Adjust spacing ----
 
@@ -137,7 +138,7 @@
 
 % Title capitalization and underline
 \let\oldtitle\title
-\renewcommand{\title}[1]{\oldtitle[]{\MakeLowercase{#1}\vspace{-5mm}\\\color{BlackGray}{\rule{\textwidth}{2pt}}\vspace{1cm}}}
+\renewcommand{\title}[1]{\oldtitle[]{\MakeLowercase{#1}\vspace{-5mm}\\\color{BlackGray}{\rule{\textwidth}{1.5pt}}\vspace{1cm}}}
 
 % Define custom commands with complex argument specifications
 \usepackage{xparse}
